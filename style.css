@@ -1,0 +1,311 @@
+/* Google font import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+
+/* ===== CSS common code starts here ===== */
+html
+{
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* ===== CSS common code ends here ===== */
+
+
+/* =====  Header section starts here ===== */
+
+header
+{
+    background: #f7f1e3;
+    height: 140vh;
+    padding: 0 10%;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 15vh;
+    padding: 2.5% 0;
+}
+nav > h2
+{
+    font-size: 3rem;
+}
+nav ul 
+{
+    display: flex;
+    
+}
+nav ul li
+{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-left: 50px;
+}
+nav ul li a
+{
+    color: black;
+}
+.banner__section
+{
+    height: 125vh;
+    padding-top: 50px;
+    text-align: center;
+}
+.banner__section h1
+{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.banner__section p
+{
+    margin: 40px 0;
+    color: rgb(139, 139, 139);
+    line-height: 25px;
+    word-spacing: 3px;
+}
+.banner__section button
+{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    background: rgb(255, 143, 52);
+    margin-bottom: 40px;
+}
+
+#sectionOne
+{
+    height: 95vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.section__img
+{
+    text-align: end;
+    width: 60%;
+    padding: 5% 6% 0% 6%;
+}
+.section__img > img
+{
+    margin: 0 0 14px 15px;
+}
+.section__text
+{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.section__text__title
+{
+    margin-bottom: 35px;
+}
+.section__text__decs
+{
+    margin-bottom: 35px;
+}
+.section__text > h2
+{
+    word-spacing: 5px;
+    font-size: 40px;
+}
+.section__text > h2 > span:nth-child(1)
+{
+    color: rgb(139, 139, 139);
+    font-weight: 300;
+}
+.section__text > h2 > span:nth-child(4)
+{
+    color: rgb(255, 143, 52);
+}
+.section__text > p
+{
+    line-height: 24px;
+    font-weight: lighter; 
+    color: rgb(139, 139, 139);
+}
+.section__text__button
+{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    background: rgb(255, 143, 52);
+    margin-bottom: 40px;
+}
+#featuresSection
+{
+    position: relative;
+    display: flex;
+    padding: 1% 10%;
+}
+.featuresSectionText
+{
+    width: 50%;
+    padding-right: 100px;
+    padding-left: 2.5%;
+    margin-top: 70px;
+}
+.featuresTitle > h2
+{
+    padding-left: 20px;
+    border-left: 5px solid rgb(255, 143, 52);
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.featuresTitle > p
+{
+    line-height: 24px;
+    font-weight: lighter; 
+    word-spacing: 5px;
+    color: rgb(139, 139, 139);
+}
+.featuresOne, .featuresTwo, .featuresThree, .featuresFour
+{
+    box-shadow: 1px 1px 15px rgb(235, 234, 234);
+    padding: 25px 30px 30px 30px;
+    margin: 20px 0;
+    max-width: 550px;
+    border-radius: 10px;
+}
+.common__features > h3
+{
+    font-weight: bolder;
+    word-spacing: 4px;
+    margin-bottom: 15px;
+}
+.common__features > p
+{
+    word-spacing: 5px;
+    color: rgb(139, 139, 139);
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.banner__tag
+{
+    bottom: -15px;
+    right: 700px;
+    position: absolute;
+
+    width: 350px;
+    height: 200px;
+    background: rgb(255, 143, 52);
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.banner__tag > span
+{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+#factSection
+{
+    padding: 8% 12%;
+}
+.factSection__text > h3
+{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.factSection__text > p
+{
+    word-spacing: 5px;
+    color: rgb(139, 139, 139);
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.factSection__card
+{
+    display: flex;
+    padding: 8% 2%;
+    width: 100%;
+    justify-content: space-around;
+}
+.factSection__card .card
+{
+    border: 1px solid rgb(255, 143, 52);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px 50px 40px;
+    border-radius: 10px;
+}
+.card .card__title
+{
+    font-size: 45px;
+    margin: 10px 0;
+}
+.card .card__desc
+{
+    word-spacing: 5px;
+    color: rgb(139, 139, 139);
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+#sponsor
+{
+    padding: 0 12%;
+}
+.sponsor__text
+{
+    text-align: center;
+}
+.sponsor__title
+{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+.sponsor__desc
+{
+    word-spacing: 5px;
+    color: rgb(139, 139, 139);
+    margin-bottom: 30px;
+}
+.sponsor__logo
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.sponsor__logo > img
+{
+    filter: contrast(0%);
+}
+.coppyright
+{
+    padding: 6% 12%;
+    
+}
+.coppyright > p
+{
+    background: #f7f1e3;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(51, 51, 51);
+    padding: 40px 0;
+}
